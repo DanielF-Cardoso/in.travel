@@ -23,7 +23,7 @@ The IN.TRAVEL project consists of two main components:
 1. **Clone the Repository**
 
     ```sh
-    git clone https://github.com/DanielF-Cardoso/intravel.git
+    git clone https://github.com/DanielF-Cardoso/in.travel.git
     cd intravel
     ```
 
