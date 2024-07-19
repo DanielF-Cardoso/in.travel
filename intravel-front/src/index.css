@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    min-width: 0;
+}
+
+input {
+    color-scheme: dark;
+}
+
+.rdp-button[aria-selected="true"] {
+    background: #BEF264; 
+    color: #1A2E05; 
+    
+    &.rdp-button[aria-selected="true"]:hover {
+      background: #1A2E05;
+      color: #FAFAFA; 
+      border: #BEF264 0.1875rem solid;
+    }
+  }
+  
+  .rdp-button:not(.rdp-button[aria-selected="true"]),
+  .rdp-button:not([aria-label=""]) {
+    
+    &:hover {
+    background: #374151; 
+    color: #f9fafb; 
+    }
+  
+    &:active {
+      background: #1A2E05;
+      color: #f9fafb; 
+      border: #BEF264 0.1875rem solid; 
+    }
+  
+    &:focus-visible {
+      outline-color: #BEF264; 
+      border-color: #BEF264; 
+      background: #030712; 
+    }
+  }
